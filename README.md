@@ -47,8 +47,6 @@ const ourArray = [
 
 ```
 
-
-describe('ArrayAddUniqueItems', () => {
 ### example with key-list
 
 ```typescript
