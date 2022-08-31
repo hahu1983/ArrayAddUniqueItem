@@ -1,12 +1,12 @@
 {
   "name": "array_add_unique_item",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool for uniquely add item to an existing array by defined rules.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha --require ts-node/register --reporter spec lib/**/*.spec.ts",
-    "build": "tsc"
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",
